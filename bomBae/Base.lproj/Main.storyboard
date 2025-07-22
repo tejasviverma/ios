@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="main" translatesAutoresizingMaskIntoConstraints="NO" id="sKp-FO-adn">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvB-Db-Xws" userLabel="1">
+                                <rect key="frame" x="159" y="214" width="32" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.98830083400000002" green="0.62960513740000001" blue="0.10544873170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="go">
+                                    <fontDescription key="titleFontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="8"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dayButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fq4-Fe-4Mb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvt-ev-D5l" userLabel="2">
+                                <rect key="frame" x="348" y="332" width="32" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.98830083400000002" green="0.62960513740000001" blue="0.10544873170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="go">
+                                    <fontDescription key="titleFontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="8"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dayButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Al3-XM-4rb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81b-Qh-KCa" userLabel="3">
+                                <rect key="frame" x="159" y="498" width="32" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.98830083400000002" green="0.62960513740000001" blue="0.10544873170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="go">
+                                    <fontDescription key="titleFontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="8"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dayButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hBQ-8T-IYT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0Q-18-LWL" userLabel="5">
+                                <rect key="frame" x="159" y="770" width="32" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.98830083400000002" green="0.62960513740000001" blue="0.10544873170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="go">
+                                    <fontDescription key="titleFontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="8"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dayButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="76B-0m-bPv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZL-Ty-raH" userLabel="4">
+                                <rect key="frame" x="348" y="618" width="32" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.98830083400000002" green="0.62960513740000001" blue="0.10544873170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="go">
+                                    <fontDescription key="titleFontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="8"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dayButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RHY-9a-awc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <segue destination="WSj-GE-z44" kind="presentation" modalPresentationStyle="fullScreen" id="AOe-PB-Hsp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+        <!--Day Detail View Controller-->
+        <scene sceneID="0GB-za-xCv">
+            <objects>
+                <viewController storyboardIdentifier="DayDetailViewController" id="WSj-GE-z44" customClass="DayDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SlI-V8-gIV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="5pc-GF-EFT">
+                                <rect key="frame" x="-9" y="0.0" width="412" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aqt-fI-YgG">
+                                <rect key="frame" x="120" y="182" width="153" height="171"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ggs-24-LP7">
+                                    <size key="itemSize" width="229" height="168"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCell" id="SrW-U4-04A">
+                                        <rect key="frame" x="0.0" y="1.6666666666666667" width="229" height="168"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="fyV-oA-xV1">
+                                            <rect key="frame" x="0.0" y="0.0" width="229" height="168"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="customSize" width="229" height="168"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Lr-XH-hQh">
+                                <rect key="frame" x="16" y="389" width="361" height="177"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="cMb-2b-9rM"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="meS-I5-Otr">
+                                <rect key="frame" x="30" y="613" width="332" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Happy"/>
+                                    <segment title="Calm"/>
+                                    <segment title="Tired"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BS-bK-t5b">
+                                <rect key="frame" x="30" y="675" width="168" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Map"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="beM-D5-pYu">
+                                <rect key="frame" x="194" y="675" width="168" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Expense"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2q-mt-tga">
+                                <rect key="frame" x="30" y="749" width="332" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Highlights"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Weather : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kma-hh-Hxo">
+                                <rect key="frame" x="50" y="105" width="75" height="27"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aQj-wL-Nbw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aQj-wL-Nbw" firstAttribute="trailing" secondItem="aqt-fI-YgG" secondAttribute="trailing" constant="120" id="NyC-0l-lAh"/>
+                            <constraint firstItem="6Lr-XH-hQh" firstAttribute="leading" secondItem="aQj-wL-Nbw" secondAttribute="leading" constant="16" id="OCw-Xq-NdE"/>
+                            <constraint firstItem="6Lr-XH-hQh" firstAttribute="top" secondItem="aqt-fI-YgG" secondAttribute="bottom" constant="120" id="OuL-0a-6Ue"/>
+                            <constraint firstItem="aQj-wL-Nbw" firstAttribute="trailing" secondItem="6Lr-XH-hQh" secondAttribute="trailing" constant="16" id="g2g-iq-rNS"/>
+                            <constraint firstItem="aqt-fI-YgG" firstAttribute="leading" secondItem="aQj-wL-Nbw" secondAttribute="leading" constant="120" id="qhv-bj-aDx"/>
+                            <constraint firstItem="aqt-fI-YgG" firstAttribute="top" secondItem="kma-hh-Hxo" secondAttribute="bottom" constant="120" id="uYs-BC-57L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="expenseButton" destination="beM-D5-pYu" id="Yya-nP-ugk"/>
+                        <outlet property="highlightButton" destination="l2q-mt-tga" id="ftk-Th-y9u"/>
+                        <outlet property="journalTextView" destination="6Lr-XH-hQh" id="T4z-Rd-ZlS"/>
+                        <outlet property="mapButton" destination="1BS-bK-t5b" id="bhO-1S-tQQ"/>
+                        <outlet property="moodSegmentedControl" destination="meS-I5-Otr" id="4LF-KN-69C"/>
+                        <outlet property="photoCollectionView" destination="aqt-fI-YgG" id="Kzd-Uw-8JE"/>
+                        <outlet property="weatherLabel" destination="kma-hh-Hxo" id="Wnf-Ks-fXt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9fZ-9Z-3pO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988.54961832061065" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="1179" height="2556"/>
+        <image name="main" width="1179" height="2556"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
